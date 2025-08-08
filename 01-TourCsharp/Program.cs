@@ -1,13 +1,24 @@
 ﻿using TourCsharp.Exemplos;
 
 // Pra não dar azar!!
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hellow Povão do WoorldiMeuDeus!!");
+Console.WriteLine();
 
-// 01 - Expressões de Correspondência
+
+
+#if false
+
+// Expressões de Correspondência
 Exemplo01.Run();
 
-// 02 -  Expressões de coleção
+
+// Expressões de coleção
 Exemplo02.Run();
 
+#else
 
+// consulta integrada a Linguagem LINQ
+Exemplo03.Run();
+
+#endif
 
