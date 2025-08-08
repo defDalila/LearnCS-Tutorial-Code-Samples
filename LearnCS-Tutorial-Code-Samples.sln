@@ -1,9 +1,10 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2
+VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourCsharp", "01-TourCsharp\TourCsharp.csproj", "{EEB011B9-18A6-30EC-D907-E739CE28F569}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-GetStarted", "01-GetStarted", "{1232999E-EAA2-ED80-CF66-8A6E55F09B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourCsharp", "01-GetStarted\01-TourCsharp\TourCsharp.csproj", "{27E1482A-CC1B-1EF7-D037-E49D987DD67A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +12,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EEB011B9-18A6-30EC-D907-E739CE28F569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EEB011B9-18A6-30EC-D907-E739CE28F569}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EEB011B9-18A6-30EC-D907-E739CE28F569}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EEB011B9-18A6-30EC-D907-E739CE28F569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A} = {1232999E-EAA2-ED80-CF66-8A6E55F09B16}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1C1D7CFB-8C47-4190-941F-33F773783F02}
+		SolutionGuid = {7AD093AE-AB5D-47A3-9625-100A72CD0692}
 	EndGlobalSection
 EndGlobal
