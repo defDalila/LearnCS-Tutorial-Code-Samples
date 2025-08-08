@@ -1,3 +1,4 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
@@ -6,22 +7,52 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-GetStarted", "01-GetStar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourCsharp", "01-GetStarted\01-TourCsharp\TourCsharp.csproj", "{27E1482A-CC1B-1EF7-D037-E49D987DD67A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Tutorials", "02-Tutorials", "{5C428E96-3EDC-5B3C-01DB-6518C56769E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorials", "01-GetStarted\02-Tutorials\Tutorials.csproj", "{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Debug|x64.Build.0 = Debug|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Debug|x86.Build.0 = Debug|Any CPU
 		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Release|x64.ActiveCfg = Release|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Release|x64.Build.0 = Release|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Release|x86.ActiveCfg = Release|Any CPU
+		{27E1482A-CC1B-1EF7-D037-E49D987DD67A}.Release|x86.Build.0 = Release|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Debug|x64.Build.0 = Debug|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Debug|x86.Build.0 = Debug|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Release|x64.ActiveCfg = Release|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Release|x64.Build.0 = Release|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Release|x86.ActiveCfg = Release|Any CPU
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{27E1482A-CC1B-1EF7-D037-E49D987DD67A} = {1232999E-EAA2-ED80-CF66-8A6E55F09B16}
+		{5C428E96-3EDC-5B3C-01DB-6518C56769E2} = {1232999E-EAA2-ED80-CF66-8A6E55F09B16}
+		{F1F7623B-5695-4B72-83F1-CDBE5FEA11E0} = {5C428E96-3EDC-5B3C-01DB-6518C56769E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AD093AE-AB5D-47A3-9625-100A72CD0692}
